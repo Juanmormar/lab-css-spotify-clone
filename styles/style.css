@@ -6,3 +6,278 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    /* width: 100%; */
+    /* height: 100vh; */
+    
+
+}
+
+.banner{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 8%;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+
+}
+
+.navbar{
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.logo{
+    width: 350px;
+    margin-right: 100px;
+    cursor: pointer;
+    margin: 0px 0px;
+}
+
+ul{
+flex: 1;
+text-align: right;
+    margin-top: 50px;
+    margin-left: 000px;
+    flex-wrap: nowrap;
+}
+.navbar ul li{
+    display: inline-block;
+    margin:  10px 20px;
+    position: relative;
+    font-size: 30px;
+ 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.introduction{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/landing.jpg);
+    
+  
+    
+
+
+}
+
+h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 50%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 80px;
+}
+#p1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 60%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container2{
+
+    width: 100%;
+    height: 20vh    ;
+    background-color: rgb(255, 255, 255);
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container2 h1{
+
+    width: 100%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
+}
+
+
+.container2 h1{
+    position: absolute;
+    top: 120%; 
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: green;
+
+    
+}
+
+
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    top: 40px;
+    transform: translate(-5%, 10%);
+}
+
+.row1 div img{
+    width: 150px;
+    background-color: transparent;
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    align-items: center;
+    background-color: transparent; 
+    margin-top: 40px;
+   }
+
+   .column h2{
+    background-color: transparent;
+    color: green;
+    width: 300px;
+    margin-top: 10px;
+   
+    
+   }
+
+   .column p{
+    background-color: transparent;
+}
+
+
+   #col-1 h2{
+    margin-left: 35%;
+    
+  
+   }
+
+   #col-2 h2{
+    margin-left: 65%;
+    /
+  
+   }
+
+
+   #col-3 h2{
+    margin-left: 25%;
+    }
+    
+    
+.container3{
+        width: 100%;
+        height: 100vh;
+        background-color: #00B172 ;
+        overflow:hidden;
+        
+    }
+   
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px;
+    background-color: #00B172 ;
+}
+
+.text1{
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    background-color: transparent;
+    line-height: 2.0;
+    font-size: 40px;
+    flex-basis: 50%;
+    height: 100vh;
+    
+}
+
+.text1 h3,h4,p{
+    background-color: transparent;
+    color: white;
+}
+
+.text1 p{
+    font-weight: 500px  ;
+
+}
+
+.text1 h3{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    
+}
+
+.container3{
+    display: flex;
+}
+
+.container3 .row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo{
+    background-color: transparent;
+}
+
+.logo img{
+    background-color: transparent;
+    width: 200px;
+}
+
+.appImage{
+        margin-right: 100px;
+        margin-top: 50px;
+        background-color: transparent;
+        height: 100vh;
+}
+
+.appImage img{
+    width: 500px;
+    background-color: transparent;
+    position: relative;
+}
